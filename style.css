@@ -1,0 +1,48 @@
+body    {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    background-color: pink;
+    caret-color: transparent;
+}
+
+header  {
+    height: 50px;
+    border: 1px solid black;
+}
+
+footer  {
+    height: 50px;
+    border:1px solid black;
+}
+
+.main   {
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameContainer  {
+    display: flex;
+    flex-direction: column;
+}
+.row    {
+    display: flex;
+}
+
+.cell   {
+    height: 75px;
+    width: 75px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.winning-cell   {
+    border: 2px solid blue;
+}
