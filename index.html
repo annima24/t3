@@ -10,7 +10,25 @@
   <body>
     <header>header</header>
     <div class="main">
+      <div class="intro-screen">
+        <h1>Welcome to Tic-Tac-Toe!</h1>
+        <div class="playerInputContainer">
+          <div class="playerContainer">
+            <label for="player1Input">Player 1: Enter your name. <br> Symbol: X</label>
+            <input type="text" name="player1Input" id="player1Input" />
+          </div>
+
+          <div class="playerContainer">
+            <label for="player2Input">Player 2: Enter your name. <br> Symbol: O</label>
+            <input type="text" name="player2Input" id="player2Input" />
+          </div>
+        </div>
+        <div class="submitButtonContainer">
+          <button type="button" class="submitButton">Submit</button>
+        </div>
+      </div>
       <div class="gameContainer">
+        <div class="textOutput"></div>
         <div class="row">
           <div class="cell" data-number="0"></div>
           <div class="cell" data-number="1"></div>

@@ -19,12 +19,41 @@ footer  {
     border:1px solid black;
 }
 
+
 .main   {
     flex: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.intro-screen {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: aquamarine;
+    /* z-index: 1; */
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+    gap: 50px;  
+}
+
+.playerInputContainer   {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    text-align: center;
+}
+
+.playerContainer  {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+ 
 
 .gameContainer  {
     display: flex;
